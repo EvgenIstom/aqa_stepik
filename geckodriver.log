@@ -1,0 +1,25 @@
+1697814105591	geckodriver	INFO	Listening on 127.0.0.1:38187
+1697814108671	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "38188" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\istom\\AppData\\Local\\Temp\\rust_mozprofilednR81L"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697814108926	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697814108975	Marionette	INFO	Listening on port 38222
+WebDriver BiDi listening on ws://127.0.0.1:38188
+Read port: 38222
+1697814109115	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:38188/devtools/browser/b4090f2a-31f6-40fa-935c-b39755a78774
+JavaScript warning: http://p.2ad.wtf/ad/base.js?id=f6e84a080dd05cf13e6534d18d80555acac2&rid=RST-lf8086bu6PQ6YCNyCyirqMY&reg=77&referer=http%3A%2F%2Fsuninjuly.github.io%2Fget_attribute.html, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://suninjuly.github.io."
+1697814133266	Marionette	INFO	Stopped listening on port 38222
+Dynamically enable window occlusion 1
+1697814141660	geckodriver	INFO	Listening on 127.0.0.1:38439
+1697814144722	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "38440" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\istom\\AppData\\Local\\Temp\\rust_mozprofileda1vJW"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1697814144939	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1697814144991	Marionette	INFO	Listening on port 38471
+WebDriver BiDi listening on ws://127.0.0.1:38440
+Read port: 38471
+1697814145136	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
