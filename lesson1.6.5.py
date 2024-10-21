@@ -1,13 +1,12 @@
 import time
 import math
 from selenium import webdriver
-from selenium.webdriver.chrome.service import Service as ChromeService
-from webdriver_manager.chrome import ChromeDriverManager
+
 from selenium.webdriver.common.by import By
 
 link = "http://suninjuly.github.io/find_link_text"
 
-browser = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
+browser = webdriver.Chrome()
 browser.get(link)
 
 try:

@@ -1,13 +1,11 @@
 from selenium import webdriver
-from selenium.webdriver.chrome.service import Service as ChromeService
-from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
 import time
 
 try:
     link = "http://suninjuly.github.io/selects1.html"
-    browser = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
+    browser = webdriver.Chrome()
     browser.get(link)
 
     num1 = browser.find_element(By.ID, "num1")
